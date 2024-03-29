@@ -4,3 +4,10 @@ function auth(username,pass){
     }
     return false
 }
+
+const isLogin = (username)=>{
+    if(username='hb'){
+        return true
+    }
+    return false
+}
